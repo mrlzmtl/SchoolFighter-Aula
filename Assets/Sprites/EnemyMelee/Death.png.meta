@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e3e3bdac944aea4ca6dbef7f5720b01
+guid: 5f4d1eb708fdb954b8fc7a6123cacbcc
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -88,9 +88,35 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,6 +150,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -143,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1f7911525c6568468051fe413b162a3
-      internalID: -2095495061
+      spriteID: f4627c78256fed14e8a83d5722a61800
+      internalID: 1498597845
       vertices: []
       indices: 
       edges: []
@@ -165,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34b3844e0635d8e4ebd82ce5bac83713
-      internalID: 380775050
+      spriteID: f7414c3eb798e784983f694f9dd46473
+      internalID: -33136716
       vertices: []
       indices: 
       edges: []
@@ -187,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91325ded2939e9248aca9b2a8bdf2111
-      internalID: 1069210207
+      spriteID: 02275f1111f0f6846b94da748c985cae
+      internalID: -875863033
       vertices: []
       indices: 
       edges: []
@@ -209,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d07d8a4181b16d4e8bd37c01eceb695
-      internalID: 1985765464
+      spriteID: 5e544eab369129e48a1048c809aa1e4e
+      internalID: -1928841254
       vertices: []
       indices: 
       edges: []
@@ -231,8 +270,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f899d010c347dfb40a27e2483a9a535b
-      internalID: 1414139796
+      spriteID: ffb0ff533216c314b8b6524dbf7fed0a
+      internalID: 1679325092
       vertices: []
       indices: 
       edges: []
@@ -253,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca23cf352eba8204fb49a85cdf5e6757
-      internalID: -402149800
+      spriteID: 94fd198307585cc4e9be9fc1a63c51f5
+      internalID: -460820743
       vertices: []
       indices: 
       edges: []
@@ -263,7 +302,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6655191964f4ae545a23d791758ade64
+    spriteID: adc1ae53bdf27d440948d40bf5423d53
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +312,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Death_0: -2095495061
-      Death_1: 380775050
-      Death_2: 1069210207
-      Death_3: 1985765464
-      Death_4: 1414139796
-      Death_5: -402149800
+      Death_0: 1498597845
+      Death_1: -33136716
+      Death_2: -875863033
+      Death_3: -1928841254
+      Death_4: 1679325092
+      Death_5: -460820743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

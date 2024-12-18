@@ -35,7 +35,7 @@ public class EnemyRanged : MonoBehaviour
 
     // Variavel para armazenar o projetil
     public GameObject projectile;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

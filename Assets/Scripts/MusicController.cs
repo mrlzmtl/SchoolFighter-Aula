@@ -2,15 +2,26 @@ using UnityEngine;
 
 public class MusicController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Classe responsável por controlar qualquer tipo de áudio
+    private AudioSource audioSource;
+
+    // AudioClip é o arquivo de audio que será executado
+    public AudioClip levelMusic;
+
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
+
+        // Ao iniciar o MusicController, inicia a música da fase
+        PlayMusic(levelMusic);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayMusic(AudioClip music)
     {
-        
+        // Define o som que irá ser reproduzido
+        audioSource.clip = music;
+
+        // Reproduz o som
+        audioSource.Play();
     }
 }

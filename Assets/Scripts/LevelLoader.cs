@@ -5,29 +5,43 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 1f; 
+    public float transitionTime = 1f;
 
+    private AudioSource audioSource;
+    public AudioClip clip;  
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
-    
+    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        // Se pressionar qualquer tecla
+        if (Input.GetKeyDown(KeyCode.Return))
         {
+            audioSource.clip = clip;
+
+            audioSource.Play();
+
+            //Mudar de Cena
             StartCoroutine(CarregarFase("Fase1"));
         }
     }
 
-    //Coroutine
+    // Corrotina - Coroutine
     IEnumerator CarregarFase(string nomeFase)
     {
+        // Iniciar a animação
         transition.SetTrigger("Start");
         
+        // Esperar o tempo de animação
         yield return new WaitForSeconds(transitionTime);
 
+        // Carregar a cena
         SceneManager.LoadScene(nomeFase);
     }
+
 }
